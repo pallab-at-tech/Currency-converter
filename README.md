@@ -4,7 +4,7 @@ This project convert any amount of any currency can convert into other currency.
 
 2. At default the country set as India (from) and USA (to).
 
-3. Error handeling : <br> i) negative value and zero can't take as input
+3. Error handeling : i) negative value and zero can't take as input <br>
                      ii)character and sepacial character can't take as input.
 
    
