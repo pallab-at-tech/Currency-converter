@@ -8,4 +8,6 @@ This project convert any amount of any currency can convert into other currency.
     i) negative value and zero can't take as input 
     ii)character and sepacial character can't take as input.
 
-   
+   Interface below in the img.
+
+   ![image](https://github.com/pallab-at-tech/Currency-converter/blob/1a54d447669646b05f7e28fb4a7242c48b8c8a2e/Screenshot%202024-12-01%20195124.png)
