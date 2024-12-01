@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Global-Currency-Exchange-Unlocked-Free-APIs-for-Business-Finance.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- the input place where we enter the amount which you want to convert. -->
+        <div class="converter-box">
+            <h4>Enter the amount</h4>
+            <input value="1" type="text" placeholder="Enter here" onkeyup="onlyletter(this)">
+        </div>
+
+        <!-- Exchange show up box. -->
+        <div class="exhange-show">
+            <div class="from">
+                <p>From</p>
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                <div class="select-box">
+                    <select name="box" id="box">
+                    </select>
+                </div>
+            </div>
+            <div class="exchange-sign"><i class="fa-solid fa-arrow-right-arrow-left fa-2x"></i></div>
+            <div class="to">
+                <p>To</p>
+                <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                <div class="select-box">
+                    <select name="box" id="box">
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- output box -->
+        <div class="output">
+            <button>Get exchange rate</button>
+
+            <p>1 INR = 0.011825268 USD</p>
+        </div>
+
+    </div>
+    <script src="listof.js"></script>
+    <script src="action.js"></script>
+</body>
+
+</html>
